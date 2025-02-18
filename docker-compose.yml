@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  instagram-reels:
+    build: .
+    volumes:
+      - ./temp_reels:/app/temp_reels
+      - ./client_secret.json:/app/client_secret.json
+      - ./settings.yaml:/app/settings.yaml
+      - ./mycreds.txt:/app/mycreds.txt
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Moscow 

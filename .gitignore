@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.log
+temp_reels/
+mycreds.txt
+client_secret*.json
+settings.yaml
+.idea/
+.vscode/ 

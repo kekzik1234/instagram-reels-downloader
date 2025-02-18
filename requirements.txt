@@ -1,0 +1,4 @@
+instaloader
+pydrive
+requests[socks]
+PySocks 
